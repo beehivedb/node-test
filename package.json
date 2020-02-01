@@ -1,0 +1,28 @@
+{
+  "name": "xudcloud-ui",
+  "version": "1.0.0",
+  "description": "UI of monitor system.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "server": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beehivedb/xudcloud-ui.git"
+  },
+  "keywords": [
+    "dashboard"
+  ],
+  "author": "Ron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beehivedb/xudcloud-ui/issues"
+  },
+  "homepage": "https://github.com/beehivedb/xudcloud-ui#readme",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.2"
+  }
+}
