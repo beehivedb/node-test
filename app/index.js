@@ -1,4 +1,7 @@
-let div = document.createElement("div");
-div.textContent("Hi WebPack");
+function handle(d){
+    console.log(d);
+}
+function XC(data){
+    let handles = [];
 
-document.querySelector("#root").appendChild(div);
+}

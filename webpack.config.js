@@ -9,5 +9,16 @@ module.exports = {
         contentBase: "./public",
         historyApiFallback: true,
         inline: true
+    },
+    module:{
+        rules:[
+            {
+                test: /\.css$/,
+                loader: 'css-loader',
+                options: {
+                    modules: true
+                }
+            }
+        ]
     }
 }
